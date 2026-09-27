@@ -69,19 +69,16 @@
                 android:padding="@dimen/space_md">
 
                 <TextView
+                    style="@style/StatValueText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stat_labs_value"
-                    android:textColor="@color/primary"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:text="@string/stat_labs_value" />
 
                 <TextView
+                    style="@style/StatLabelText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stat_labs_label"
-                    android:textColor="@color/muted"
-                    android:textSize="12sp" />
+                    android:text="@string/stat_labs_label" />
             </LinearLayout>
 
             <LinearLayout
@@ -95,19 +92,16 @@
                 android:padding="@dimen/space_md">
 
                 <TextView
+                    style="@style/StatValueText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stat_score_value"
-                    android:textColor="@color/primary"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:text="@string/stat_score_value" />
 
                 <TextView
+                    style="@style/StatLabelText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/stat_score_label"
-                    android:textColor="@color/muted"
-                    android:textSize="12sp" />
+                    android:text="@string/stat_score_label" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

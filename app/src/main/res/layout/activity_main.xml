@@ -66,21 +66,17 @@
             android:paddingBottom="@dimen/space_xl">
 
             <TextView
+                style="@style/TitleText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/login_title"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:text="@string/login_title" />
 
             <TextView
+                style="@style/SubtitleText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:gravity="center"
-                android:text="@string/login_subtitle"
-                android:textColor="@color/muted"
-                android:textSize="14sp" />
+                android:text="@string/login_subtitle" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"

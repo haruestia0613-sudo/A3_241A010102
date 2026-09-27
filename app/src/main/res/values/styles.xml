@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.A3Layout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.A3Layout" parent="Base.Theme.A3Layout" />
+
+    <!-- ==================== STYLES BÀI NC3 ==================== -->
+
+    <!-- Style cho Tiêu đề chính (ví dụ: "Đăng nhập hệ thống", "Cổng thực hành LTDD") -->
+    <style name="TitleText" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style cho Phụ đề (ví dụ: "Nhập MSSV và mật khẩu để tiếp tục") -->
+    <style name="SubtitleText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style cho Giá trị Thống kê (ví dụ: "2", "8.5") -->
+    <style name="StatValueText" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <!-- Style cho Nhãn Thống kê (ví dụ: "Lab đã nộp", "Điểm TB lab") -->
+    <style name="StatLabelText" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+</resources>
