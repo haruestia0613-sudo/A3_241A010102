@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-night/colors.xml - Bảng màu cho Chế độ tối (NC1) -->
+<resources>
+    <color name="primary">#64B5F6</color>          <!-- Xanh nhạt sáng, dịu mắt trên nền tối -->
+    <color name="tertiary">#4DB6AC</color>         <!-- Màu phụ chuyển sang tông dịu hơn -->
+    <color name="on_primary">#121212</color>        <!-- Chữ đậm khi nằm trên nền nút/header -->
+    <color name="primary_container">#1E293B</color> <!-- Nền avatar/khối chứa chính -->
+    <color name="surface">#121212</color>           <!-- Nền chính ứng dụng theo chuẩn Material Dark -->
+    <color name="surface_variant">#1E1E1E</color>   <!-- Nền của Card, khối ô thống kê -->
+    <color name="divider">#2D3748</color>           <!-- Đường kẻ phân cách màu xám sẫm -->
+    <color name="muted">#A0AEC0</color>             <!-- Chữ phụ/chú thích xám sáng hơn -->
+</resources>
